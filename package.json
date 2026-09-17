@@ -1,0 +1,10 @@
+{
+  "name": "string-utils",
+  "version": "1.0.0",
+  "description": "Pequenas utilidades de texto en JavaScript, sin dependencias externas.",
+  "main": "src/stringUtils.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
