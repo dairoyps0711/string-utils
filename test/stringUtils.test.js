@@ -17,3 +17,7 @@ test('isPalindrome accepts a simple lowercase palindrome', () => {
 test('isPalindrome rejects a non-palindrome', () => {
   assert.equal(isPalindrome('hello'), false);
 });
+
+test('isPalindrome ignores punctuation, spaces and mixed case', () => {
+  assert.equal(isPalindrome('A man, a plan, a canal: Panama'), true);
+});
